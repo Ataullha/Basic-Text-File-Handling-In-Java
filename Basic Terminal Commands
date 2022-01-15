@@ -4,7 +4,7 @@
  tree
  cd .
  cd ..
- touch x[directory_name] [directory_name] ...(as many)
+ touch [directory_name] [directory_name] ...(as many)
  cd ../..
  rm [file_name]/[directory_address]
  mv [directory_adress_from] [directory_adress_to]
