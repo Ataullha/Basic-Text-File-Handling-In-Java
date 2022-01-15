@@ -1,14 +1,14 @@
-01. cd  [directory_name]
-02. mkdir [directory_name] [directory_name] ...(as many)
-04. ls 
-05. tree
-06. cd .
-07. cd ..
-08. touch x[directory_name] [directory_name] ...(as many)
-09. cd ../..
-10. rm [file_name]/[directory_address]
-11. mv [directory_adress_from] [directory_adress_to]
-12. file * 
-13. file
-14. file -b [file_name]
-15. cp [directory_adress_from] [directory_adress_to]
+ cd  [directory_name]
+ mkdir [directory_name] [directory_name] ...(as many)
+ ls 
+ tree
+ cd .
+ cd ..
+ touch x[directory_name] [directory_name] ...(as many)
+ cd ../..
+ rm [file_name]/[directory_address]
+ mv [directory_adress_from] [directory_adress_to]
+ file * 
+ file
+ file -b [file_name]
+ cp [directory_adress_from] [directory_adress_to]
