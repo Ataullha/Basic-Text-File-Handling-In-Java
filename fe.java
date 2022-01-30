@@ -193,11 +193,11 @@ File file = new File(current);
 System.out.println(ANSI_PURPLE+file.getAbsolutePath()+ANSI_RESET);
 System.out.println("|-"+ANSI_PURPLE+file.getName()+ANSI_RESET);
 
-if(file.isDirectory()||file.exists()){
+if(file.isDirectory() && file.exists() && !(file.isFile())){
     File fls[] = file.listFiles();
     DirectoryTree(fls,0);
 } else {
-    System.out.println("Enter a Valid Directory Name!");
+    System.out.println("Enter a Valid Directory Name For Better Exploring!");
 }
 
 //explore-end
