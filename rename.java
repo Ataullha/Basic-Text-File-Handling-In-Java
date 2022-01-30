@@ -31,7 +31,7 @@ public class rename {
         //Path target = Paths.get(args[0]);
        
         try {
-            // from nio - for move dir/files
+            // from nio library - for move dir/files
             Files.move(source,source.resolveSibling(args[1]), StandardCopyOption.REPLACE_EXISTING);
         } catch (Exception e) {
             System.out.println("Failed To Rename!");

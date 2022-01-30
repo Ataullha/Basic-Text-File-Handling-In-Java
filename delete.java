@@ -6,7 +6,7 @@
 
 import java.io.*;
 import java.nio.file.*;
-import javax.swing.text.html.HTMLDocument.RunElement; // what's it is doing here ? No Idea..
+import javax.swing.text.html.HTMLDocument.RunElement; // what the .. it is doing here ? No Idea..
 
 public class delete {
 
@@ -36,7 +36,7 @@ public class delete {
                     return;
                 }
             }
-            // a if a here destory my 30 mins :'(
+            // a if  here destory my 30 mins :'(
                 subfile.delete();
         }
 
