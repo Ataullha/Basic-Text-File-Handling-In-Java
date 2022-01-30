@@ -7,7 +7,13 @@ https://www.codejava.net/file-io-tutorials
 
 # Summary
 
- **[COMMAND LINE FILE EXPLORER]**
+**HOW TO USE**<br>
+<pre> download <b>fe.java</b> file</pre>
+<pre> <b>javac <b>fe.java </pre>
+<pre> <b>java fe help</b> </pre>
+
+**USER MANUAL** <br><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;**[COMMAND LINE FILE EXPLORER]**
 
 * **create** :    java fe create [target]
 	or java fe create [target] [file_name]
@@ -84,7 +90,7 @@ copy
 
 ✔️ copy a dierctory or file using java command line args to another directory, if we provide two args string args[1] as **source_file or source_directory** and args[2] target_directory we can do that
 
-* Copy a File/Directoy to another Directory : <pre> java fe copy [source_file/source_directory] [target_directory]
+* Copy a File/Directoy to another Directory : <pre> java fe copy [source_file/source_directory] [target_directory]</pre>
 ![directory_copied_to directory](https://user-images.githubusercontent.com/53054762/151712908-7a85b3bd-81ab-46c5-9aa4-5aa815a8c48f.png)
 ![file_copied_in directory](https://user-images.githubusercontent.com/53054762/151712913-67a8b6ca-8e54-473f-b605-f6338dc290c2.png)
 
