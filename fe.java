@@ -184,10 +184,9 @@ public class fe {
             }
             File file = new File(current);
 
+            if (file.isDirectory() && file.exists()) {
             System.out.println(ANSI_PURPLE + file.getAbsolutePath() + ANSI_RESET);
             System.out.println("|-" + ANSI_PURPLE + file.getName() + ANSI_RESET);
-
-            if (file.isDirectory() && file.exists() && !(file.isFile())) {
                 File fls[] = file.listFiles();
                 DirectoryTree(fls, 0);
             } else {
@@ -296,4 +295,3 @@ public class fe {
 // main-function-end
 
 }
-
