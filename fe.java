@@ -144,7 +144,7 @@ public class fe {
 
             File file = new File(curDirectory + "/" + args[1]);
 
-            if (args[0].contains(".")) {
+            if (args[1].contains(".")) {
                 try {
                     if (file.createNewFile()) {
                         System.out.println("New File Created at " + curDirectory + "/" + args[1]);
