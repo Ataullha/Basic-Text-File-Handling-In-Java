@@ -1,12 +1,12 @@
 
 /**
  *  CSE336
+ *  Operating System
  *  Assignment-1
  *  COMMAND(using args[]) LINE FILE EXPLORER
  *  Team 26
- * 	2018331065	Debapriya Dhar
- * 	2018331081	Md Ataullha
- * 	2018331106	Fatima Nuzhat
+ * 	Writer : Md Ataullha (2018331081)
+ *  Date   : Mon 31 Jan 2022 12:25:17 PM +06
  */
 
 import java.io.*;
